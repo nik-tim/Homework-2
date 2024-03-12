@@ -2,14 +2,8 @@ package animals.bird;
 
 import animals.pets.Animal;
 
-public class Duck extends Animal implements Flying {
+public class Duck extends Animal implements IFlying {
 
-    public Duck() {
-    }
-
-    public Duck(String name, int age, double weight, String color) {
-        super(name, age, weight, color);
-    }
 
     @Override
     public void say() {
